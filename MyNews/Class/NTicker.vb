@@ -99,7 +99,7 @@ Public Class NTicker
     End Sub
 
     Private Sub makepicbar(ByVal txt As String)
-        Dim sstr As String() = Split(txt, ";;")
+        Dim sstr As String() = Split(txt, "--")
         Dim i As Integer = 0
         Panel1.Controls.Clear()
         Try

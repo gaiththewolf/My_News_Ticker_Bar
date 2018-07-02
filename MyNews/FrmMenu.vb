@@ -65,11 +65,11 @@ Public Class FrmMenu
                     txtnbar.Text = ReadDocFile(lblselectedfile.Text)
                 Else
                     If txtnbar.Text.Equals("") Then
-                        txtnbar.Text = "Default Text ;; 'Hello Wolf' ;; Error Reading file"
+                        txtnbar.Text = "Default Text -- 'Hello Wolf' -- Error Reading file"
                     End If
                 End If
             Else
-                txtnbar.Text = "Default Text ;; 'Hello Wolf'"
+                txtnbar.Text = "Default Text -- 'Hello Wolf'"
             End If
 
             Dim animsens As String = INIRead(confile, "Config", "Anim", "LTR")
@@ -153,7 +153,7 @@ Public Class FrmMenu
                 FrmBar.Close()
             End If
             FrmBar = New myBar.myBar
-            FrmBar.Height = txtsize.Text
+            FrmBar.FormSize = txtsize.Text
             FrmBar.BackColor = selectedColor.BackColor
             FrmBar.txtcol = selectedtextcolor.BackColor
             Dim pp As String = "Bottom"
@@ -278,8 +278,7 @@ Public Class FrmMenu
             If IO.File.Exists(Pat) Then
                 Dim reader As New StreamReader(Pat, Encoding.UTF8)
                 Do While reader.Peek() >= 0
-                    RB.AppendText(reader.ReadLine.Trim)
-                    RB.AppendText(";;")
+                    RB.AppendText(reader.ReadLine)
                 Loop
                 reader.Close()
                 Return RB.Text
@@ -303,8 +302,7 @@ Public Class FrmMenu
                 doc = App.Documents.Open(Pat)
                 Dim co As Integer = doc.Words.Count
                 For i As Integer = 1 To co
-                    RB.AppendText(doc.Words(i).Text.Trim)
-                    RB.AppendText(";;")
+                    RB.AppendText(doc.Words(i).Text)
                 Next
                 doc.Close()
                 Return RB.Text

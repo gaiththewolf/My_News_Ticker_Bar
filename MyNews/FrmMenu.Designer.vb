@@ -872,7 +872,7 @@ Partial Class FrmMenu
         Me.txtnbar.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtnbar.Size = New System.Drawing.Size(538, 130)
         Me.txtnbar.TabIndex = 4
-        Me.txtnbar.Text = "مرحبا بكم في الديوان الوطني للحماية المدنية"
+        Me.txtnbar.Text = "Hello Wolf--Test News"
         '
         'Label5
         '

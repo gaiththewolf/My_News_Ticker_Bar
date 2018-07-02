@@ -20,8 +20,8 @@ Namespace myBar
             Me.PicBar.Image = CType(resources.GetObject("PicBar.Image"), System.Drawing.Image)
             Me.PicBar.Location = New System.Drawing.Point(0, 0)
             Me.PicBar.Name = "PicBar"
-            Me.PicBar.Size = New System.Drawing.Size(60, 60)
-            Me.PicBar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+            Me.PicBar.Size = New System.Drawing.Size(96, 60)
+            Me.PicBar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
             Me.PicBar.TabIndex = 1
             Me.PicBar.TabStop = False
             '
@@ -29,11 +29,11 @@ Namespace myBar
             '
             Me.NTicker1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.NTicker1.IMG = CType(resources.GetObject("NTicker1.IMG"), System.Drawing.Image)
-            Me.NTicker1.Location = New System.Drawing.Point(60, 0)
+            Me.NTicker1.Location = New System.Drawing.Point(96, 0)
             Me.NTicker1.Name = "NTicker1"
             Me.NTicker1.News = "ssss" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "55454" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WOLF"
             Me.NTicker1.RTL = True
-            Me.NTicker1.Size = New System.Drawing.Size(391, 60)
+            Me.NTicker1.Size = New System.Drawing.Size(355, 60)
             Me.NTicker1.Speed = 1.0R
             Me.NTicker1.TabIndex = 2
             Me.NTicker1.TextPosition = MyNews.NTicker.TextPlacement.Middle
@@ -54,6 +54,7 @@ Namespace myBar
             Me.TopMost = True
             CType(Me.PicBar, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
+            Me.PerformLayout()
 
         End Sub
 
