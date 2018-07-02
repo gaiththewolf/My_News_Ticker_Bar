@@ -10,7 +10,7 @@
  
 ![enter image description here](https://image.ibb.co/iG2XcJ/2018_07_02_11_53_21.png)
 
-## Options
+## Features
 
  - Chagne Bar size and Color
  - Chagne Text Font
