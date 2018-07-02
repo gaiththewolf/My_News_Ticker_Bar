@@ -26,13 +26,21 @@ Partial Class FrmMenu
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMenu))
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.BunifuImageButton7 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.lblappnamever = New System.Windows.Forms.Label()
+        Me.BunifuImageButton2 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.lnnnn = New System.Windows.Forms.Label()
+        Me.BunifuImageButton1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.BunifuImageButton3 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.selectedtextcolor = New System.Windows.Forms.PictureBox()
+        Me.BunifuImageButton5 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.btntxtcolorbar = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtsize = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.btnsetsize = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.animRTL = New System.Windows.Forms.RadioButton()
@@ -41,15 +49,26 @@ Partial Class FrmMenu
         Me.BarTop = New System.Windows.Forms.RadioButton()
         Me.BarBottom = New System.Windows.Forms.RadioButton()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.selectedColor = New System.Windows.Forms.PictureBox()
+        Me.btncolor = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.lblselectedsplitpic = New System.Windows.Forms.Label()
+        Me.selectedPicsplit = New System.Windows.Forms.PictureBox()
+        Me.btnsplitbar = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.txtspeed = New System.Windows.Forms.TextBox()
         Me.lblselectedfont = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.BunifuImageButton6 = New Bunifu.Framework.UI.BunifuImageButton()
+        Me.btnFont = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.lblselectedPic = New System.Windows.Forms.Label()
+        Me.selectedPic = New System.Windows.Forms.PictureBox()
+        Me.BunifuFlatButton3 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.FontDialog1 = New System.Windows.Forms.FontDialog()
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
@@ -58,50 +77,31 @@ Partial Class FrmMenu
         Me.lblselectedfile = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.BunifuImageButton4 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.txtnbar = New System.Windows.Forms.RichTextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.OFDText = New System.Windows.Forms.OpenFileDialog()
         Me.OFDDocx = New System.Windows.Forms.OpenFileDialog()
         Me.MyNewsNotif = New System.Windows.Forms.NotifyIcon(Me.components)
-        Me.BunifuImageButton4 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.selectedPicsplit = New System.Windows.Forms.PictureBox()
-        Me.btnsplitbar = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.BunifuImageButton6 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.btnFont = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.selectedPic = New System.Windows.Forms.PictureBox()
-        Me.BunifuFlatButton3 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuImageButton3 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.selectedtextcolor = New System.Windows.Forms.PictureBox()
-        Me.BunifuImageButton5 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.btntxtcolorbar = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.btnsetsize = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.selectedColor = New System.Windows.Forms.PictureBox()
-        Me.btncolor = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuImageButton7 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.BunifuImageButton2 = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.BunifuImageButton1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Panel1.SuspendLayout()
+        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.BunifuImageButton4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.selectedPicsplit, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.selectedPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BunifuImageButton3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.selectedtextcolor, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BunifuImageButton5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnsetsize, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         CType(Me.selectedColor, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.selectedPicsplit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.selectedPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        CType(Me.BunifuImageButton4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BunifuElipse1
@@ -124,15 +124,43 @@ Partial Class FrmMenu
         Me.Panel1.Size = New System.Drawing.Size(571, 38)
         Me.Panel1.TabIndex = 0
         '
+        'BunifuImageButton7
+        '
+        Me.BunifuImageButton7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BunifuImageButton7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton7.Image = CType(resources.GetObject("BunifuImageButton7.Image"), System.Drawing.Image)
+        Me.BunifuImageButton7.ImageActive = Nothing
+        Me.BunifuImageButton7.Location = New System.Drawing.Point(442, 3)
+        Me.BunifuImageButton7.Name = "BunifuImageButton7"
+        Me.BunifuImageButton7.Size = New System.Drawing.Size(38, 32)
+        Me.BunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton7.TabIndex = 4
+        Me.BunifuImageButton7.TabStop = False
+        Me.BunifuImageButton7.Zoom = 5
+        '
         'lblappnamever
         '
         Me.lblappnamever.AutoSize = True
         Me.lblappnamever.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblappnamever.Location = New System.Drawing.Point(110, 15)
         Me.lblappnamever.Name = "lblappnamever"
-        Me.lblappnamever.Size = New System.Drawing.Size(64, 15)
+        Me.lblappnamever.Size = New System.Drawing.Size(61, 15)
         Me.lblappnamever.TabIndex = 3
         Me.lblappnamever.Text = "(ver-2018)"
+        '
+        'BunifuImageButton2
+        '
+        Me.BunifuImageButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton2.Image = CType(resources.GetObject("BunifuImageButton2.Image"), System.Drawing.Image)
+        Me.BunifuImageButton2.ImageActive = Nothing
+        Me.BunifuImageButton2.Location = New System.Drawing.Point(486, 3)
+        Me.BunifuImageButton2.Name = "BunifuImageButton2"
+        Me.BunifuImageButton2.Size = New System.Drawing.Size(38, 32)
+        Me.BunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton2.TabIndex = 2
+        Me.BunifuImageButton2.TabStop = False
+        Me.BunifuImageButton2.Zoom = 5
         '
         'lnnnn
         '
@@ -143,6 +171,20 @@ Partial Class FrmMenu
         Me.lnnnn.Size = New System.Drawing.Size(92, 25)
         Me.lnnnn.TabIndex = 1
         Me.lnnnn.Text = "My News"
+        '
+        'BunifuImageButton1
+        '
+        Me.BunifuImageButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton1.Image = CType(resources.GetObject("BunifuImageButton1.Image"), System.Drawing.Image)
+        Me.BunifuImageButton1.ImageActive = Nothing
+        Me.BunifuImageButton1.Location = New System.Drawing.Point(530, 3)
+        Me.BunifuImageButton1.Name = "BunifuImageButton1"
+        Me.BunifuImageButton1.Size = New System.Drawing.Size(38, 32)
+        Me.BunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton1.TabIndex = 0
+        Me.BunifuImageButton1.TabStop = False
+        Me.BunifuImageButton1.Zoom = 5
         '
         'GroupBox1
         '
@@ -167,6 +209,76 @@ Partial Class FrmMenu
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Settings"
+        '
+        'BunifuImageButton3
+        '
+        Me.BunifuImageButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton3.Image = CType(resources.GetObject("BunifuImageButton3.Image"), System.Drawing.Image)
+        Me.BunifuImageButton3.ImageActive = Nothing
+        Me.BunifuImageButton3.Location = New System.Drawing.Point(177, 145)
+        Me.BunifuImageButton3.Name = "BunifuImageButton3"
+        Me.BunifuImageButton3.Size = New System.Drawing.Size(19, 20)
+        Me.BunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton3.TabIndex = 13
+        Me.BunifuImageButton3.TabStop = False
+        Me.BunifuImageButton3.Zoom = 5
+        '
+        'selectedtextcolor
+        '
+        Me.selectedtextcolor.Location = New System.Drawing.Point(177, 78)
+        Me.selectedtextcolor.Name = "selectedtextcolor"
+        Me.selectedtextcolor.Size = New System.Drawing.Size(27, 37)
+        Me.selectedtextcolor.TabIndex = 12
+        Me.selectedtextcolor.TabStop = False
+        '
+        'BunifuImageButton5
+        '
+        Me.BunifuImageButton5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton5.Image = CType(resources.GetObject("BunifuImageButton5.Image"), System.Drawing.Image)
+        Me.BunifuImageButton5.ImageActive = Nothing
+        Me.BunifuImageButton5.Location = New System.Drawing.Point(177, 245)
+        Me.BunifuImageButton5.Name = "BunifuImageButton5"
+        Me.BunifuImageButton5.Size = New System.Drawing.Size(19, 20)
+        Me.BunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton5.TabIndex = 16
+        Me.BunifuImageButton5.TabStop = False
+        Me.BunifuImageButton5.Zoom = 5
+        '
+        'btntxtcolorbar
+        '
+        Me.btntxtcolorbar.Active = False
+        Me.btntxtcolorbar.Activecolor = System.Drawing.Color.FromArgb(CType(CType(62, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.btntxtcolorbar.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
+        Me.btntxtcolorbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btntxtcolorbar.BorderRadius = 0
+        Me.btntxtcolorbar.ButtonText = "News Text Color"
+        Me.btntxtcolorbar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btntxtcolorbar.DisabledColor = System.Drawing.Color.Gray
+        Me.btntxtcolorbar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btntxtcolorbar.Iconcolor = System.Drawing.Color.Transparent
+        Me.btntxtcolorbar.Iconimage = CType(resources.GetObject("btntxtcolorbar.Iconimage"), System.Drawing.Image)
+        Me.btntxtcolorbar.Iconimage_right = Nothing
+        Me.btntxtcolorbar.Iconimage_right_Selected = Nothing
+        Me.btntxtcolorbar.Iconimage_Selected = Nothing
+        Me.btntxtcolorbar.IconMarginLeft = 0
+        Me.btntxtcolorbar.IconMarginRight = 0
+        Me.btntxtcolorbar.IconRightVisible = True
+        Me.btntxtcolorbar.IconRightZoom = 0R
+        Me.btntxtcolorbar.IconVisible = True
+        Me.btntxtcolorbar.IconZoom = 40.0R
+        Me.btntxtcolorbar.IsTab = False
+        Me.btntxtcolorbar.Location = New System.Drawing.Point(9, 78)
+        Me.btntxtcolorbar.Name = "btntxtcolorbar"
+        Me.btntxtcolorbar.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
+        Me.btntxtcolorbar.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(93, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.btntxtcolorbar.OnHoverTextColor = System.Drawing.Color.White
+        Me.btntxtcolorbar.selected = False
+        Me.btntxtcolorbar.Size = New System.Drawing.Size(164, 37)
+        Me.btntxtcolorbar.TabIndex = 11
+        Me.btntxtcolorbar.Text = "News Text Color"
+        Me.btntxtcolorbar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btntxtcolorbar.Textcolor = System.Drawing.Color.White
+        Me.btntxtcolorbar.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'Label6
         '
@@ -198,6 +310,19 @@ Partial Class FrmMenu
         Me.Label4.Text = "px"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'btnsetsize
+        '
+        Me.btnsetsize.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnsetsize.Image = CType(resources.GetObject("btnsetsize.Image"), System.Drawing.Image)
+        Me.btnsetsize.ImageActive = Nothing
+        Me.btnsetsize.Location = New System.Drawing.Point(177, 193)
+        Me.btnsetsize.Name = "btnsetsize"
+        Me.btnsetsize.Size = New System.Drawing.Size(19, 20)
+        Me.btnsetsize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.btnsetsize.TabIndex = 6
+        Me.btnsetsize.TabStop = False
+        Me.btnsetsize.Zoom = 5
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -223,7 +348,7 @@ Partial Class FrmMenu
         Me.animRTL.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.animRTL.Location = New System.Drawing.Point(3, 26)
         Me.animRTL.Name = "animRTL"
-        Me.animRTL.Size = New System.Drawing.Size(93, 19)
+        Me.animRTL.Size = New System.Drawing.Size(92, 19)
         Me.animRTL.TabIndex = 1
         Me.animRTL.Text = "Right To Left"
         Me.animRTL.UseVisualStyleBackColor = True
@@ -235,7 +360,7 @@ Partial Class FrmMenu
         Me.animLTR.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.animLTR.Location = New System.Drawing.Point(3, 3)
         Me.animLTR.Name = "animLTR"
-        Me.animLTR.Size = New System.Drawing.Size(89, 19)
+        Me.animLTR.Size = New System.Drawing.Size(88, 19)
         Me.animLTR.TabIndex = 0
         Me.animLTR.TabStop = True
         Me.animLTR.Text = "Lef To Right"
@@ -256,7 +381,7 @@ Partial Class FrmMenu
         Me.BarTop.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BarTop.Location = New System.Drawing.Point(3, 26)
         Me.BarTop.Name = "BarTop"
-        Me.BarTop.Size = New System.Drawing.Size(46, 19)
+        Me.BarTop.Size = New System.Drawing.Size(45, 19)
         Me.BarTop.TabIndex = 1
         Me.BarTop.Text = "Top"
         Me.BarTop.UseVisualStyleBackColor = True
@@ -283,6 +408,50 @@ Partial Class FrmMenu
         Me.Label2.Size = New System.Drawing.Size(81, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Bar Position"
+        '
+        'selectedColor
+        '
+        Me.selectedColor.Location = New System.Drawing.Point(177, 35)
+        Me.selectedColor.Name = "selectedColor"
+        Me.selectedColor.Size = New System.Drawing.Size(27, 37)
+        Me.selectedColor.TabIndex = 1
+        Me.selectedColor.TabStop = False
+        '
+        'btncolor
+        '
+        Me.btncolor.Active = False
+        Me.btncolor.Activecolor = System.Drawing.Color.FromArgb(CType(CType(62, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.btncolor.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
+        Me.btncolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btncolor.BorderRadius = 0
+        Me.btncolor.ButtonText = "News Bar Color"
+        Me.btncolor.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btncolor.DisabledColor = System.Drawing.Color.Gray
+        Me.btncolor.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncolor.Iconcolor = System.Drawing.Color.Transparent
+        Me.btncolor.Iconimage = CType(resources.GetObject("btncolor.Iconimage"), System.Drawing.Image)
+        Me.btncolor.Iconimage_right = Nothing
+        Me.btncolor.Iconimage_right_Selected = Nothing
+        Me.btncolor.Iconimage_Selected = Nothing
+        Me.btncolor.IconMarginLeft = 0
+        Me.btncolor.IconMarginRight = 0
+        Me.btncolor.IconRightVisible = True
+        Me.btncolor.IconRightZoom = 0R
+        Me.btncolor.IconVisible = True
+        Me.btncolor.IconZoom = 40.0R
+        Me.btncolor.IsTab = False
+        Me.btncolor.Location = New System.Drawing.Point(9, 35)
+        Me.btncolor.Name = "btncolor"
+        Me.btncolor.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
+        Me.btncolor.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(93, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.btncolor.OnHoverTextColor = System.Drawing.Color.White
+        Me.btncolor.selected = False
+        Me.btncolor.Size = New System.Drawing.Size(164, 37)
+        Me.btncolor.TabIndex = 0
+        Me.btncolor.Text = "News Bar Color"
+        Me.btncolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btncolor.Textcolor = System.Drawing.Color.White
+        Me.btncolor.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'Label8
         '
@@ -327,186 +496,6 @@ Partial Class FrmMenu
         Me.lblselectedsplitpic.Size = New System.Drawing.Size(220, 30)
         Me.lblselectedsplitpic.TabIndex = 21
         Me.lblselectedsplitpic.Text = "Default"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label10.Location = New System.Drawing.Point(250, 125)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(63, 13)
-        Me.Label10.TabIndex = 14
-        Me.Label10.Text = "[Wolf|Dev]"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(7, 270)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(230, 13)
-        Me.Label9.TabIndex = 18
-        Me.Label9.Text = "Cannot be less than 0.01 or greater than 100"
-        '
-        'txtspeed
-        '
-        Me.txtspeed.Location = New System.Drawing.Point(132, 245)
-        Me.txtspeed.Name = "txtspeed"
-        Me.txtspeed.Size = New System.Drawing.Size(75, 22)
-        Me.txtspeed.TabIndex = 17
-        Me.txtspeed.Text = "60"
-        Me.txtspeed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'lblselectedfont
-        '
-        Me.lblselectedfont.AutoSize = True
-        Me.lblselectedfont.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblselectedfont.Location = New System.Drawing.Point(4, 156)
-        Me.lblselectedfont.Name = "lblselectedfont"
-        Me.lblselectedfont.Size = New System.Drawing.Size(137, 13)
-        Me.lblselectedfont.TabIndex = 13
-        Me.lblselectedfont.Text = "Segoe UI Semibold/11,25"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(7, 248)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(119, 17)
-        Me.Label11.TabIndex = 14
-        Me.Label11.Text = "Animation Speed :"
-        '
-        'lblselectedPic
-        '
-        Me.lblselectedPic.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblselectedPic.Location = New System.Drawing.Point(7, 75)
-        Me.lblselectedPic.Name = "lblselectedPic"
-        Me.lblselectedPic.Size = New System.Drawing.Size(220, 38)
-        Me.lblselectedPic.TabIndex = 11
-        Me.lblselectedPic.Text = "Default"
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        Me.OpenFileDialog1.Filter = """PNG|*png|JPG|*.jpg|ALL Files|*.*"""
-        Me.OpenFileDialog1.Title = "Choose Bar Picture"
-        '
-        'FontDialog1
-        '
-        Me.FontDialog1.AllowScriptChange = False
-        Me.FontDialog1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        '
-        'BunifuDragControl1
-        '
-        Me.BunifuDragControl1.Fixed = True
-        Me.BunifuDragControl1.Horizontal = True
-        Me.BunifuDragControl1.TargetControl = Me.Panel1
-        Me.BunifuDragControl1.Vertical = True
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.Button3)
-        Me.GroupBox3.Controls.Add(Me.lblselectedfile)
-        Me.GroupBox3.Controls.Add(Me.Button2)
-        Me.GroupBox3.Controls.Add(Me.Button1)
-        Me.GroupBox3.Controls.Add(Me.BunifuImageButton4)
-        Me.GroupBox3.Controls.Add(Me.txtnbar)
-        Me.GroupBox3.Controls.Add(Me.Label5)
-        Me.GroupBox3.Location = New System.Drawing.Point(12, 340)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(553, 200)
-        Me.GroupBox3.TabIndex = 8
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Text"
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(363, 16)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(113, 23)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "Set Custom Text"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'lblselectedfile
-        '
-        Me.lblselectedfile.AutoSize = True
-        Me.lblselectedfile.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblselectedfile.Location = New System.Drawing.Point(74, 42)
-        Me.lblselectedfile.Name = "lblselectedfile"
-        Me.lblselectedfile.Size = New System.Drawing.Size(44, 13)
-        Me.lblselectedfile.TabIndex = 14
-        Me.lblselectedfile.Text = "Default"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(220, 16)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(137, 23)
-        Me.Button2.TabIndex = 9
-        Me.Button2.Text = "Import Doc file (*.docx)"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(74, 16)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(137, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Import text file (*.txt)"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'txtnbar
-        '
-        Me.txtnbar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtnbar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnbar.Location = New System.Drawing.Point(9, 64)
-        Me.txtnbar.Name = "txtnbar"
-        Me.txtnbar.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txtnbar.Size = New System.Drawing.Size(538, 130)
-        Me.txtnbar.TabIndex = 4
-        Me.txtnbar.Text = "مرحبا بكم في الديوان الوطني للحماية المدنية"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(6, 18)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(58, 17)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Bar Text"
-        '
-        'OFDText
-        '
-        Me.OFDText.Filter = "Text Files|*.txt"
-        '
-        'OFDDocx
-        '
-        Me.OFDDocx.FileName = "Open File"
-        Me.OFDDocx.Filter = "Doc|*.docx"
-        '
-        'MyNewsNotif
-        '
-        Me.MyNewsNotif.Icon = CType(resources.GetObject("MyNewsNotif.Icon"), System.Drawing.Icon)
-        Me.MyNewsNotif.Text = "MyNews"
-        Me.MyNewsNotif.Visible = True
-        '
-        'BunifuImageButton4
-        '
-        Me.BunifuImageButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton4.Image = CType(resources.GetObject("BunifuImageButton4.Image"), System.Drawing.Image)
-        Me.BunifuImageButton4.ImageActive = Nothing
-        Me.BunifuImageButton4.Location = New System.Drawing.Point(528, 16)
-        Me.BunifuImageButton4.Name = "BunifuImageButton4"
-        Me.BunifuImageButton4.Size = New System.Drawing.Size(19, 23)
-        Me.BunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton4.TabIndex = 7
-        Me.BunifuImageButton4.TabStop = False
-        Me.BunifuImageButton4.Zoom = 5
         '
         'selectedPicsplit
         '
@@ -553,6 +542,18 @@ Partial Class FrmMenu
         Me.btnsplitbar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.btnsplitbar.Textcolor = System.Drawing.Color.White
         Me.btnsplitbar.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label10.Location = New System.Drawing.Point(250, 125)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(63, 13)
+        Me.Label10.TabIndex = 14
+        Me.Label10.Text = "[Wolf|Dev]"
         '
         'BunifuFlatButton1
         '
@@ -626,6 +627,35 @@ Partial Class FrmMenu
         Me.BunifuFlatButton2.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton2.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(7, 270)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(226, 13)
+        Me.Label9.TabIndex = 18
+        Me.Label9.Text = "Cannot be less than 0.01 or greater than 100"
+        '
+        'txtspeed
+        '
+        Me.txtspeed.Location = New System.Drawing.Point(132, 245)
+        Me.txtspeed.Name = "txtspeed"
+        Me.txtspeed.Size = New System.Drawing.Size(75, 22)
+        Me.txtspeed.TabIndex = 17
+        Me.txtspeed.Text = "60"
+        Me.txtspeed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'lblselectedfont
+        '
+        Me.lblselectedfont.AutoSize = True
+        Me.lblselectedfont.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblselectedfont.Location = New System.Drawing.Point(4, 156)
+        Me.lblselectedfont.Name = "lblselectedfont"
+        Me.lblselectedfont.Size = New System.Drawing.Size(133, 13)
+        Me.lblselectedfont.TabIndex = 13
+        Me.lblselectedfont.Text = "Segoe UI Semibold/11,25"
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
@@ -684,6 +714,25 @@ Partial Class FrmMenu
         Me.btnFont.Textcolor = System.Drawing.Color.White
         Me.btnFont.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(7, 248)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(119, 17)
+        Me.Label11.TabIndex = 14
+        Me.Label11.Text = "Animation Speed :"
+        '
+        'lblselectedPic
+        '
+        Me.lblselectedPic.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblselectedPic.Location = New System.Drawing.Point(7, 75)
+        Me.lblselectedPic.Name = "lblselectedPic"
+        Me.lblselectedPic.Size = New System.Drawing.Size(220, 38)
+        Me.lblselectedPic.TabIndex = 11
+        Me.lblselectedPic.Text = "Default"
+        '
         'selectedPic
         '
         Me.selectedPic.Image = Global.MyNews.My.Resources.Resources.Google_News_96px
@@ -730,174 +779,125 @@ Partial Class FrmMenu
         Me.BunifuFlatButton3.Textcolor = System.Drawing.Color.White
         Me.BunifuFlatButton3.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'BunifuImageButton3
+        'OpenFileDialog1
         '
-        Me.BunifuImageButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton3.Image = CType(resources.GetObject("BunifuImageButton3.Image"), System.Drawing.Image)
-        Me.BunifuImageButton3.ImageActive = Nothing
-        Me.BunifuImageButton3.Location = New System.Drawing.Point(177, 145)
-        Me.BunifuImageButton3.Name = "BunifuImageButton3"
-        Me.BunifuImageButton3.Size = New System.Drawing.Size(19, 20)
-        Me.BunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton3.TabIndex = 13
-        Me.BunifuImageButton3.TabStop = False
-        Me.BunifuImageButton3.Zoom = 5
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        Me.OpenFileDialog1.Filter = """PNG|*png|JPG|*.jpg|ALL Files|*.*"""
+        Me.OpenFileDialog1.Title = "Choose Bar Picture"
         '
-        'selectedtextcolor
+        'FontDialog1
         '
-        Me.selectedtextcolor.Location = New System.Drawing.Point(177, 78)
-        Me.selectedtextcolor.Name = "selectedtextcolor"
-        Me.selectedtextcolor.Size = New System.Drawing.Size(27, 37)
-        Me.selectedtextcolor.TabIndex = 12
-        Me.selectedtextcolor.TabStop = False
+        Me.FontDialog1.AllowScriptChange = False
+        Me.FontDialog1.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'BunifuImageButton5
+        'BunifuDragControl1
         '
-        Me.BunifuImageButton5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton5.Image = CType(resources.GetObject("BunifuImageButton5.Image"), System.Drawing.Image)
-        Me.BunifuImageButton5.ImageActive = Nothing
-        Me.BunifuImageButton5.Location = New System.Drawing.Point(177, 245)
-        Me.BunifuImageButton5.Name = "BunifuImageButton5"
-        Me.BunifuImageButton5.Size = New System.Drawing.Size(19, 20)
-        Me.BunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton5.TabIndex = 16
-        Me.BunifuImageButton5.TabStop = False
-        Me.BunifuImageButton5.Zoom = 5
+        Me.BunifuDragControl1.Fixed = True
+        Me.BunifuDragControl1.Horizontal = True
+        Me.BunifuDragControl1.TargetControl = Me.Panel1
+        Me.BunifuDragControl1.Vertical = True
         '
-        'btntxtcolorbar
+        'GroupBox3
         '
-        Me.btntxtcolorbar.Active = False
-        Me.btntxtcolorbar.Activecolor = System.Drawing.Color.FromArgb(CType(CType(62, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.btntxtcolorbar.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
-        Me.btntxtcolorbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btntxtcolorbar.BorderRadius = 0
-        Me.btntxtcolorbar.ButtonText = "News Text Color"
-        Me.btntxtcolorbar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btntxtcolorbar.DisabledColor = System.Drawing.Color.Gray
-        Me.btntxtcolorbar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btntxtcolorbar.Iconcolor = System.Drawing.Color.Transparent
-        Me.btntxtcolorbar.Iconimage = CType(resources.GetObject("btntxtcolorbar.Iconimage"), System.Drawing.Image)
-        Me.btntxtcolorbar.Iconimage_right = Nothing
-        Me.btntxtcolorbar.Iconimage_right_Selected = Nothing
-        Me.btntxtcolorbar.Iconimage_Selected = Nothing
-        Me.btntxtcolorbar.IconMarginLeft = 0
-        Me.btntxtcolorbar.IconMarginRight = 0
-        Me.btntxtcolorbar.IconRightVisible = True
-        Me.btntxtcolorbar.IconRightZoom = 0R
-        Me.btntxtcolorbar.IconVisible = True
-        Me.btntxtcolorbar.IconZoom = 40.0R
-        Me.btntxtcolorbar.IsTab = False
-        Me.btntxtcolorbar.Location = New System.Drawing.Point(9, 78)
-        Me.btntxtcolorbar.Name = "btntxtcolorbar"
-        Me.btntxtcolorbar.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
-        Me.btntxtcolorbar.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(93, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.btntxtcolorbar.OnHoverTextColor = System.Drawing.Color.White
-        Me.btntxtcolorbar.selected = False
-        Me.btntxtcolorbar.Size = New System.Drawing.Size(164, 37)
-        Me.btntxtcolorbar.TabIndex = 11
-        Me.btntxtcolorbar.Text = "News Text Color"
-        Me.btntxtcolorbar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btntxtcolorbar.Textcolor = System.Drawing.Color.White
-        Me.btntxtcolorbar.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Controls.Add(Me.Button3)
+        Me.GroupBox3.Controls.Add(Me.lblselectedfile)
+        Me.GroupBox3.Controls.Add(Me.Button2)
+        Me.GroupBox3.Controls.Add(Me.Button1)
+        Me.GroupBox3.Controls.Add(Me.BunifuImageButton4)
+        Me.GroupBox3.Controls.Add(Me.txtnbar)
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Location = New System.Drawing.Point(12, 340)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(553, 200)
+        Me.GroupBox3.TabIndex = 8
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Text"
         '
-        'btnsetsize
+        'Button3
         '
-        Me.btnsetsize.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnsetsize.Image = CType(resources.GetObject("btnsetsize.Image"), System.Drawing.Image)
-        Me.btnsetsize.ImageActive = Nothing
-        Me.btnsetsize.Location = New System.Drawing.Point(177, 193)
-        Me.btnsetsize.Name = "btnsetsize"
-        Me.btnsetsize.Size = New System.Drawing.Size(19, 20)
-        Me.btnsetsize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.btnsetsize.TabIndex = 6
-        Me.btnsetsize.TabStop = False
-        Me.btnsetsize.Zoom = 5
+        Me.Button3.Location = New System.Drawing.Point(363, 16)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(113, 23)
+        Me.Button3.TabIndex = 15
+        Me.Button3.Text = "Set Custom Text"
+        Me.Button3.UseVisualStyleBackColor = True
         '
-        'selectedColor
+        'lblselectedfile
         '
-        Me.selectedColor.Location = New System.Drawing.Point(177, 35)
-        Me.selectedColor.Name = "selectedColor"
-        Me.selectedColor.Size = New System.Drawing.Size(27, 37)
-        Me.selectedColor.TabIndex = 1
-        Me.selectedColor.TabStop = False
+        Me.lblselectedfile.AutoSize = True
+        Me.lblselectedfile.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblselectedfile.Location = New System.Drawing.Point(74, 42)
+        Me.lblselectedfile.Name = "lblselectedfile"
+        Me.lblselectedfile.Size = New System.Drawing.Size(44, 13)
+        Me.lblselectedfile.TabIndex = 14
+        Me.lblselectedfile.Text = "Default"
         '
-        'btncolor
+        'Button2
         '
-        Me.btncolor.Active = False
-        Me.btncolor.Activecolor = System.Drawing.Color.FromArgb(CType(CType(62, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.btncolor.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
-        Me.btncolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btncolor.BorderRadius = 0
-        Me.btncolor.ButtonText = "News Bar Color"
-        Me.btncolor.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btncolor.DisabledColor = System.Drawing.Color.Gray
-        Me.btncolor.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncolor.Iconcolor = System.Drawing.Color.Transparent
-        Me.btncolor.Iconimage = CType(resources.GetObject("btncolor.Iconimage"), System.Drawing.Image)
-        Me.btncolor.Iconimage_right = Nothing
-        Me.btncolor.Iconimage_right_Selected = Nothing
-        Me.btncolor.Iconimage_Selected = Nothing
-        Me.btncolor.IconMarginLeft = 0
-        Me.btncolor.IconMarginRight = 0
-        Me.btncolor.IconRightVisible = True
-        Me.btncolor.IconRightZoom = 0R
-        Me.btncolor.IconVisible = True
-        Me.btncolor.IconZoom = 40.0R
-        Me.btncolor.IsTab = False
-        Me.btncolor.Location = New System.Drawing.Point(7, 35)
-        Me.btncolor.Name = "btncolor"
-        Me.btncolor.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(159, Byte), Integer))
-        Me.btncolor.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(93, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.btncolor.OnHoverTextColor = System.Drawing.Color.White
-        Me.btncolor.selected = False
-        Me.btncolor.Size = New System.Drawing.Size(164, 37)
-        Me.btncolor.TabIndex = 0
-        Me.btncolor.Text = "News Bar Color"
-        Me.btncolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btncolor.Textcolor = System.Drawing.Color.White
-        Me.btncolor.TextFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(220, 16)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(137, 23)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "Import Doc file (*.docx)"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'BunifuImageButton7
+        'Button1
         '
-        Me.BunifuImageButton7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BunifuImageButton7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton7.Image = CType(resources.GetObject("BunifuImageButton7.Image"), System.Drawing.Image)
-        Me.BunifuImageButton7.ImageActive = Nothing
-        Me.BunifuImageButton7.Location = New System.Drawing.Point(442, 3)
-        Me.BunifuImageButton7.Name = "BunifuImageButton7"
-        Me.BunifuImageButton7.Size = New System.Drawing.Size(38, 32)
-        Me.BunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton7.TabIndex = 4
-        Me.BunifuImageButton7.TabStop = False
-        Me.BunifuImageButton7.Zoom = 5
+        Me.Button1.Location = New System.Drawing.Point(74, 16)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(137, 23)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Import text file (*.txt)"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'BunifuImageButton2
+        'BunifuImageButton4
         '
-        Me.BunifuImageButton2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton2.Image = CType(resources.GetObject("BunifuImageButton2.Image"), System.Drawing.Image)
-        Me.BunifuImageButton2.ImageActive = Nothing
-        Me.BunifuImageButton2.Location = New System.Drawing.Point(486, 3)
-        Me.BunifuImageButton2.Name = "BunifuImageButton2"
-        Me.BunifuImageButton2.Size = New System.Drawing.Size(38, 32)
-        Me.BunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton2.TabIndex = 2
-        Me.BunifuImageButton2.TabStop = False
-        Me.BunifuImageButton2.Zoom = 5
+        Me.BunifuImageButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuImageButton4.Image = CType(resources.GetObject("BunifuImageButton4.Image"), System.Drawing.Image)
+        Me.BunifuImageButton4.ImageActive = Nothing
+        Me.BunifuImageButton4.Location = New System.Drawing.Point(528, 16)
+        Me.BunifuImageButton4.Name = "BunifuImageButton4"
+        Me.BunifuImageButton4.Size = New System.Drawing.Size(19, 23)
+        Me.BunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuImageButton4.TabIndex = 7
+        Me.BunifuImageButton4.TabStop = False
+        Me.BunifuImageButton4.Zoom = 5
         '
-        'BunifuImageButton1
+        'txtnbar
         '
-        Me.BunifuImageButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuImageButton1.Image = CType(resources.GetObject("BunifuImageButton1.Image"), System.Drawing.Image)
-        Me.BunifuImageButton1.ImageActive = Nothing
-        Me.BunifuImageButton1.Location = New System.Drawing.Point(530, 3)
-        Me.BunifuImageButton1.Name = "BunifuImageButton1"
-        Me.BunifuImageButton1.Size = New System.Drawing.Size(38, 32)
-        Me.BunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuImageButton1.TabIndex = 0
-        Me.BunifuImageButton1.TabStop = False
-        Me.BunifuImageButton1.Zoom = 5
+        Me.txtnbar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnbar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnbar.Location = New System.Drawing.Point(9, 64)
+        Me.txtnbar.Name = "txtnbar"
+        Me.txtnbar.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.txtnbar.Size = New System.Drawing.Size(538, 130)
+        Me.txtnbar.TabIndex = 4
+        Me.txtnbar.Text = "مرحبا بكم في الديوان الوطني للحماية المدنية"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(6, 18)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(57, 17)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Bar Text"
+        '
+        'OFDText
+        '
+        Me.OFDText.Filter = "Text Files|*.txt"
+        '
+        'OFDDocx
+        '
+        Me.OFDDocx.FileName = "Open File"
+        Me.OFDDocx.Filter = "Doc|*.docx"
+        '
+        'MyNewsNotif
+        '
+        Me.MyNewsNotif.Icon = CType(resources.GetObject("MyNewsNotif.Icon"), System.Drawing.Icon)
+        Me.MyNewsNotif.Text = "MyNews"
+        Me.MyNewsNotif.Visible = True
         '
         'FrmMenu
         '
@@ -915,29 +915,29 @@ Partial Class FrmMenu
         Me.Text = "My News"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
-        CType(Me.BunifuImageButton4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.selectedPicsplit, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.selectedPic, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BunifuImageButton3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.selectedtextcolor, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BunifuImageButton5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnsetsize, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         CType(Me.selectedColor, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuImageButton7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuImageButton2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuImageButton1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        CType(Me.selectedPicsplit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.selectedPic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        CType(Me.BunifuImageButton4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
