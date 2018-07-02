@@ -1,2 +1,25 @@
 # My_News_Ticker_Bar
-Advanced News Ticker Bar
+
+**Pictures**
+
+ - Main Menu
+
+![enter image description here](https://image.ibb.co/n8Jijy/2018_07_02_11_51_25.png)
+
+ - News Bar
+ 
+![enter image description here](https://image.ibb.co/iG2XcJ/2018_07_02_11_53_21.png)
+
+## Options
+
+ - Chagne Bar size and Color
+ - Chagne Text Font
+ - Chagne Bar Picture ( Picture size need to be same hieght with bar height)
+ - Splitt text in Bar by picture as you wont
+ - Animation Speed and direction 
+ - Support "Arabic" [RTL / LTR]
+ - Bar Position with dock in screen On Top or Bottom
+ - ...
+
+## Credits
+![enter image description here](https://image.ibb.co/hiNwnJ/2018_07_02_12_06_19.png)
